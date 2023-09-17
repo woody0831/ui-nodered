@@ -8,14 +8,6 @@
         "env": []
     },
     {
-        "id": "b83c15dbbb2f9fc4",
-        "type": "tab",
-        "label": "INPUTS",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "9f5b84976321c3aa",
         "type": "tab",
         "label": "INPUTS",
@@ -550,20 +542,6 @@
         "x": 1480,
         "y": 160,
         "wires": [
-            []
-        ]
-    },
-    {
-        "id": "59439aff21bd3289",
-        "type": "remote-access",
-        "z": "faa995641db2c168",
-        "confignode": "97721fe083c1e28a",
-        "name": "",
-        "verbose": 0,
-        "x": 1280,
-        "y": 280,
-        "wires": [
-            [],
             []
         ]
     },
