@@ -242,7 +242,7 @@
     {
         "id": "1645ae93822b6381",
         "type": "OpcUa-Endpoint",
-        "endpoint": "opc.tcp://192.168.0.200:4840",
+        "endpoint": "opc.tcp://KhanhNguyen:53530/OPCUA/SimulationServer",
         "secpol": "None",
         "secmode": "None",
         "none": true,
@@ -952,7 +952,7 @@
         "receiveBufferSize": 8192,
         "sendBufferSize": 8192,
         "name": "",
-        "x": 1160,
+        "x": 1200,
         "y": 480,
         "wires": [
             [
@@ -972,7 +972,7 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1340,
+        "x": 1440,
         "y": 440,
         "wires": []
     },
@@ -2510,7 +2510,7 @@
         "datatype": "Double",
         "value": "",
         "name": "ACT_BOD",
-        "x": 510,
+        "x": 530,
         "y": 500,
         "wires": [
             [
