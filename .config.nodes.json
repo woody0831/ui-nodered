@@ -865,5 +865,211 @@
                 "file": "C:\\Users\\khanh\\node-red\\node_modules\\node-red-contrib-remote\\nodes\\remote-question.js"
             }
         }
+    },
+    "node-red-contrib-iiot-opcua": {
+        "name": "node-red-contrib-iiot-opcua",
+        "version": "4.1.2",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "OPCUA-IIoT-Connector": {
+                "name": "OPCUA-IIoT-Connector",
+                "types": [
+                    "OPCUA-IIoT-Connector"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-iiot-opcua",
+                "file": "C:\\Users\\khanh\\node-red\\node_modules\\node-red-contrib-iiot-opcua\\opcuaIIoT\\opcua-iiot-connector.js"
+            },
+            "OPCUA-IIoT-Flex-Connector": {
+                "name": "OPCUA-IIoT-Flex-Connector",
+                "types": [
+                    "OPCUA-IIoT-Flex-Connector"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-iiot-opcua",
+                "file": "C:\\Users\\khanh\\node-red\\node_modules\\node-red-contrib-iiot-opcua\\opcuaIIoT\\opcua-iiot-flex-connector.js"
+            },
+            "OPCUA-IIoT-Inject": {
+                "name": "OPCUA-IIoT-Inject",
+                "types": [
+                    "OPCUA-IIoT-Inject"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-iiot-opcua",
+                "file": "C:\\Users\\khanh\\node-red\\node_modules\\node-red-contrib-iiot-opcua\\opcuaIIoT\\opcua-iiot-inject.js"
+            },
+            "OPCUA-IIoT-Node": {
+                "name": "OPCUA-IIoT-Node",
+                "types": [
+                    "OPCUA-IIoT-Node"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-iiot-opcua",
+                "file": "C:\\Users\\khanh\\node-red\\node_modules\\node-red-contrib-iiot-opcua\\opcuaIIoT\\opcua-iiot-node.js"
+            },
+            "OPCUA-IIoT-Event": {
+                "name": "OPCUA-IIoT-Event",
+                "types": [
+                    "OPCUA-IIoT-Event"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-iiot-opcua",
+                "file": "C:\\Users\\khanh\\node-red\\node_modules\\node-red-contrib-iiot-opcua\\opcuaIIoT\\opcua-iiot-event.js"
+            },
+            "OPCUA-IIoT-Listener": {
+                "name": "OPCUA-IIoT-Listener",
+                "types": [
+                    "OPCUA-IIoT-Listener"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-iiot-opcua",
+                "file": "C:\\Users\\khanh\\node-red\\node_modules\\node-red-contrib-iiot-opcua\\opcuaIIoT\\opcua-iiot-listener.js"
+            },
+            "OPCUA-IIoT-Read": {
+                "name": "OPCUA-IIoT-Read",
+                "types": [
+                    "OPCUA-IIoT-Read"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-iiot-opcua",
+                "file": "C:\\Users\\khanh\\node-red\\node_modules\\node-red-contrib-iiot-opcua\\opcuaIIoT\\opcua-iiot-read.js"
+            },
+            "OPCUA-IIoT-Write": {
+                "name": "OPCUA-IIoT-Write",
+                "types": [
+                    "OPCUA-IIoT-Write"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-iiot-opcua",
+                "file": "C:\\Users\\khanh\\node-red\\node_modules\\node-red-contrib-iiot-opcua\\opcuaIIoT\\opcua-iiot-write.js"
+            },
+            "OPCUA-IIoT-Response": {
+                "name": "OPCUA-IIoT-Response",
+                "types": [
+                    "OPCUA-IIoT-Response"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-iiot-opcua",
+                "file": "C:\\Users\\khanh\\node-red\\node_modules\\node-red-contrib-iiot-opcua\\opcuaIIoT\\opcua-iiot-response.js"
+            },
+            "OPCUA-IIoT-Browser": {
+                "name": "OPCUA-IIoT-Browser",
+                "types": [
+                    "OPCUA-IIoT-Browser"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-iiot-opcua",
+                "file": "C:\\Users\\khanh\\node-red\\node_modules\\node-red-contrib-iiot-opcua\\opcuaIIoT\\opcua-iiot-browser.js"
+            },
+            "OPCUA-IIoT-Crawler": {
+                "name": "OPCUA-IIoT-Crawler",
+                "types": [
+                    "OPCUA-IIoT-Crawler"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-iiot-opcua",
+                "file": "C:\\Users\\khanh\\node-red\\node_modules\\node-red-contrib-iiot-opcua\\opcuaIIoT\\opcua-iiot-crawler.js"
+            },
+            "OPCUA-IIoT-Server": {
+                "name": "OPCUA-IIoT-Server",
+                "types": [
+                    "OPCUA-IIoT-Server"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-iiot-opcua",
+                "file": "C:\\Users\\khanh\\node-red\\node_modules\\node-red-contrib-iiot-opcua\\opcuaIIoT\\opcua-iiot-server.js"
+            },
+            "OPCUA-IIoT-Flex-Server": {
+                "name": "OPCUA-IIoT-Flex-Server",
+                "types": [
+                    "OPCUA-IIoT-Flex-Server"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-iiot-opcua",
+                "file": "C:\\Users\\khanh\\node-red\\node_modules\\node-red-contrib-iiot-opcua\\opcuaIIoT\\opcua-iiot-flex-server.js"
+            },
+            "OPCUA-IIoT-Server-ASO": {
+                "name": "OPCUA-IIoT-Server-ASO",
+                "types": [
+                    "OPCUA-IIoT-Server-ASO"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-iiot-opcua",
+                "file": "C:\\Users\\khanh\\node-red\\node_modules\\node-red-contrib-iiot-opcua\\opcuaIIoT\\opcua-iiot-server-aso.js"
+            },
+            "OPCUA-IIoT-Server-Command": {
+                "name": "OPCUA-IIoT-Server-Command",
+                "types": [
+                    "OPCUA-IIoT-Server-Command"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-iiot-opcua",
+                "file": "C:\\Users\\khanh\\node-red\\node_modules\\node-red-contrib-iiot-opcua\\opcuaIIoT\\opcua-iiot-server-cmd.js"
+            },
+            "OPCUA-IIoT-Result-Filter": {
+                "name": "OPCUA-IIoT-Result-Filter",
+                "types": [
+                    "OPCUA-IIoT-Result-Filter"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-iiot-opcua",
+                "file": "C:\\Users\\khanh\\node-red\\node_modules\\node-red-contrib-iiot-opcua\\opcuaIIoT\\opcua-iiot-result-filter.js"
+            },
+            "OPCUA-IIoT-Method-Caller": {
+                "name": "OPCUA-IIoT-Method-Caller",
+                "types": [
+                    "OPCUA-IIoT-Method-Caller"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-iiot-opcua",
+                "file": "C:\\Users\\khanh\\node-red\\node_modules\\node-red-contrib-iiot-opcua\\opcuaIIoT\\opcua-iiot-method-caller.js"
+            },
+            "OPCUA-IIoT-Discovery": {
+                "name": "OPCUA-IIoT-Discovery",
+                "types": [
+                    "OPCUA-IIoT-Discovery"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-iiot-opcua",
+                "file": "C:\\Users\\khanh\\node-red\\node_modules\\node-red-contrib-iiot-opcua\\opcuaIIoT\\opcua-iiot-discovery.js"
+            }
+        }
     }
 }

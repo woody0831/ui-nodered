@@ -428,6 +428,32 @@
         "height": 1
     },
     {
+        "id": "1437b463318e47a9",
+        "type": "OPCUA-IIoT-Connector",
+        "discoveryUrl": "",
+        "endpoint": "opc.tcp://KhanhNguyen:49320",
+        "endpointMustExist": false,
+        "keepSessionAlive": true,
+        "loginEnabled": false,
+        "name": "LOCAL SERVER",
+        "showErrors": false,
+        "securityPolicy": "None",
+        "securityMode": "None",
+        "individualCerts": false,
+        "publicCertificateFile": "",
+        "privateKeyFile": "",
+        "defaultSecureTokenLifetime": "",
+        "autoSelectRightEndpoint": false,
+        "strategyMaxRetry": "",
+        "strategyInitialDelay": "",
+        "strategyMaxDelay": "",
+        "strategyRandomisationFactor": "",
+        "requestedSessionTimeout": "",
+        "connectionStartDelay": "",
+        "reconnectDelay": "",
+        "maxBadSessionRequests": "10"
+    },
+    {
         "id": "43778a7fe3af112f",
         "type": "ui_button",
         "z": "faa995641db2c168",
@@ -849,6 +875,60 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "c26834f7adc944a8",
+        "type": "OPCUA-IIoT-Server",
+        "z": "faa995641db2c168",
+        "port": "49320",
+        "endpoint": "opc.tcp://KhanhNguyen:49320",
+        "acceptExternalCommands": true,
+        "maxAllowedSessionNumber": "",
+        "maxConnectionsPerEndpoint": "",
+        "maxAllowedSubscriptionNumber": "",
+        "alternateHostname": "KEPUA",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "asoDemo": true,
+        "allowAnonymous": true,
+        "individualCerts": false,
+        "isAuditing": false,
+        "serverDiscovery": true,
+        "users": [],
+        "xmlsets": [],
+        "publicCertificateFile": "",
+        "privateCertificateFile": "",
+        "registerServerMethod": 1,
+        "discoveryServerEndpointUrl": "",
+        "capabilitiesForMDNS": "",
+        "maxNodesPerRead": 1000,
+        "maxNodesPerBrowse": 2000,
+        "delayToClose": 1000,
+        "x": 490,
+        "y": 800,
+        "wires": [
+            [
+                "5980447c6c03ba32"
+            ]
+        ]
+    },
+    {
+        "id": "5980447c6c03ba32",
+        "type": "debug",
+        "z": "faa995641db2c168",
+        "name": "debug 45",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 800,
+        "wires": []
     },
     {
         "id": "ac505d0aa407bedf",
