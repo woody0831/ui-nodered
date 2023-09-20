@@ -1071,5 +1071,35 @@
                 "file": "C:\\Users\\khanh\\node-red\\node_modules\\node-red-contrib-iiot-opcua\\opcuaIIoT\\opcua-iiot-discovery.js"
             }
         }
+    },
+    "node-red-contrib-kepware-iotgateway": {
+        "name": "node-red-contrib-kepware-iotgateway",
+        "version": "1.0.0",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "kepware-read": {
+                "name": "kepware-read",
+                "types": [
+                    "kepware-read"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-kepware-iotgateway",
+                "file": "C:\\Users\\khanh\\node-red\\node_modules\\node-red-contrib-kepware-iotgateway\\kepware.js"
+            },
+            "kepware-write": {
+                "name": "kepware-write",
+                "types": [
+                    "kepware-write"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-kepware-iotgateway",
+                "file": "C:\\Users\\khanh\\node-red\\node_modules\\node-red-contrib-kepware-iotgateway\\kepwareWrite.js"
+            }
+        }
     }
 }
