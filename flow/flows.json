@@ -242,7 +242,7 @@
     {
         "id": "1645ae93822b6381",
         "type": "OpcUa-Endpoint",
-        "endpoint": "opc.tcp://171.247.154.26:4840",
+        "endpoint": "opc.tcp://192.168.1.201:4840",
         "secpol": "None",
         "secmode": "None",
         "none": false,
@@ -3004,7 +3004,7 @@
         "localkeyfile": "",
         "securitymode": "None",
         "securitypolicy": "None",
-        "folderName4PKI": "",
+        "folderName4PKI": "C:\\Users\\khanh\\node-red\\node_modules\\node-opcua-client\\certificates",
         "useTransport": false,
         "maxChunkCount": 1,
         "maxMessageSize": 8192,
