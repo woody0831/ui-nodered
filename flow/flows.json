@@ -242,7 +242,7 @@
     {
         "id": "1645ae93822b6381",
         "type": "OpcUa-Endpoint",
-        "endpoint": "opc.tcp://192.168.0.201:49320",
+        "endpoint": "opc.tcp://171.247.154.26:49320",
         "secpol": "None",
         "secmode": "None",
         "none": false,
