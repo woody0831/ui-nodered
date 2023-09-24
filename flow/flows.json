@@ -242,7 +242,7 @@
     {
         "id": "1645ae93822b6381",
         "type": "OpcUa-Endpoint",
-        "endpoint": "opc.tcp://192.168.0.201:4840",
+        "endpoint": "opc.tcp://192.168.0.201:49320",
         "secpol": "None",
         "secmode": "None",
         "none": false,
@@ -1032,7 +1032,7 @@
         "receiveBufferSize": 8192,
         "sendBufferSize": 8192,
         "name": "",
-        "x": 1240,
+        "x": 1260,
         "y": 480,
         "wires": [
             [
