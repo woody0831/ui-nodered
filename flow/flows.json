@@ -242,7 +242,7 @@
     {
         "id": "1645ae93822b6381",
         "type": "OpcUa-Endpoint",
-        "endpoint": "opc.tcp://192.168.0.201:49320",
+        "endpoint": "opc.tcp://171.247.165.210:4840",
         "secpol": "None",
         "secmode": "None",
         "none": false,
@@ -418,16 +418,6 @@
         "className": ""
     },
     {
-        "id": "c82958d5f175121f",
-        "type": "ui_spacer",
-        "z": "a0904a3b4d8bff43",
-        "name": "spacer",
-        "group": "b249ebe388a79f9e",
-        "order": 4,
-        "width": 3,
-        "height": 1
-    },
-    {
         "id": "1437b463318e47a9",
         "type": "OPCUA-IIoT-Connector",
         "discoveryUrl": "",
@@ -452,6 +442,16 @@
         "connectionStartDelay": "",
         "reconnectDelay": "",
         "maxBadSessionRequests": "10"
+    },
+    {
+        "id": "65a42ca3e0fcc2d6",
+        "type": "ui_spacer",
+        "z": "9f5b84976321c3aa",
+        "name": "spacer",
+        "group": "b249ebe388a79f9e",
+        "order": 4,
+        "width": 3,
+        "height": 1
     },
     {
         "id": "43778a7fe3af112f",
@@ -1373,7 +1373,7 @@
         "label": "Pump 6",
         "tooltip": "",
         "group": "6261c4cf2923c8e6",
-        "order": 5,
+        "order": 3,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -1486,7 +1486,7 @@
         "label": "Fan TSS",
         "tooltip": "",
         "group": "6261c4cf2923c8e6",
-        "order": 3,
+        "order": 5,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -2397,7 +2397,7 @@
         "sendBufferSize": 8192,
         "name": "ACT_OXY",
         "x": 750,
-        "y": 240,
+        "y": 260,
         "wires": [
             [
                 "d6c2c60bc342fbb1",
@@ -2661,7 +2661,7 @@
         "z": "a0904a3b4d8bff43",
         "name": "",
         "group": "a601b9b3e52e2d2b",
-        "order": 4,
+        "order": 5,
         "width": 6,
         "height": 4,
         "label": "ACT_pH",
@@ -2875,7 +2875,7 @@
         "z": "a0904a3b4d8bff43",
         "name": "",
         "group": "a601b9b3e52e2d2b",
-        "order": 5,
+        "order": 4,
         "width": 6,
         "height": 4,
         "gtype": "gage",
@@ -3011,8 +3011,8 @@
         "receiveBufferSize": 8192,
         "sendBufferSize": 8192,
         "name": "ACT_TSS",
-        "x": 760,
-        "y": 140,
+        "x": 740,
+        "y": 80,
         "wires": [
             [
                 "5136360bb032ec8a",
@@ -8075,7 +8075,7 @@
         "id": "3872e91f9086e4da",
         "type": "ui_led",
         "z": "6413368d70ce7daa",
-        "order": 6,
+        "order": 4,
         "group": "6261c4cf2923c8e6",
         "width": 2,
         "height": 1,
@@ -9516,7 +9516,7 @@
         "id": "a7a0682821c20725",
         "type": "ui_led",
         "z": "6413368d70ce7daa",
-        "order": 4,
+        "order": 6,
         "group": "6261c4cf2923c8e6",
         "width": 2,
         "height": 1,
