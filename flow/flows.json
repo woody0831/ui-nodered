@@ -877,60 +877,6 @@
         ]
     },
     {
-        "id": "c26834f7adc944a8",
-        "type": "OPCUA-IIoT-Server",
-        "z": "faa995641db2c168",
-        "port": "49320",
-        "endpoint": "opc.tcp://KhanhNguyen:49320",
-        "acceptExternalCommands": true,
-        "maxAllowedSessionNumber": "",
-        "maxConnectionsPerEndpoint": "",
-        "maxAllowedSubscriptionNumber": "",
-        "alternateHostname": "KEPUA",
-        "name": "",
-        "showStatusActivities": false,
-        "showErrors": false,
-        "asoDemo": true,
-        "allowAnonymous": true,
-        "individualCerts": false,
-        "isAuditing": false,
-        "serverDiscovery": true,
-        "users": [],
-        "xmlsets": [],
-        "publicCertificateFile": "",
-        "privateCertificateFile": "",
-        "registerServerMethod": 1,
-        "discoveryServerEndpointUrl": "",
-        "capabilitiesForMDNS": "",
-        "maxNodesPerRead": 1000,
-        "maxNodesPerBrowse": 2000,
-        "delayToClose": 1000,
-        "x": 490,
-        "y": 800,
-        "wires": [
-            [
-                "5980447c6c03ba32"
-            ]
-        ]
-    },
-    {
-        "id": "5980447c6c03ba32",
-        "type": "debug",
-        "z": "faa995641db2c168",
-        "name": "debug 45",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 760,
-        "y": 800,
-        "wires": []
-    },
-    {
         "id": "ac505d0aa407bedf",
         "type": "OpcUa-Item",
         "z": "9f5b84976321c3aa",
@@ -2355,14 +2301,14 @@
                 "vt": "str"
             }
         ],
-        "repeat": "",
+        "repeat": "1.5",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 140,
+        "x": 150,
         "y": 1220,
         "wires": [
             [
@@ -2596,18 +2542,22 @@
                 "vt": "str"
             }
         ],
-        "repeat": "",
+        "repeat": "1.6",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 300,
+        "x": 310,
         "y": 440,
         "wires": [
             [
-                "bf901c8707230d44"
+                "bf901c8707230d44",
+                "616beeac2648322a",
+                "472a3b68b399ee0e",
+                "27dafb0d4ff78769",
+                "25f939016903c1d9"
             ]
         ]
     },
@@ -3011,28 +2961,14 @@
         "receiveBufferSize": 8192,
         "sendBufferSize": 8192,
         "name": "ACT_TSS",
-        "x": 740,
-        "y": 80,
+        "x": 760,
+        "y": 100,
         "wires": [
             [
                 "5136360bb032ec8a",
                 "556c3b402b3c9beb",
                 "4fe405bf749d24cb"
             ]
-        ]
-    },
-    {
-        "id": "c31cc6fded603158",
-        "type": "OpcUa-Item",
-        "z": "a0904a3b4d8bff43",
-        "item": "",
-        "datatype": "",
-        "value": "",
-        "name": "",
-        "x": 200,
-        "y": 180,
-        "wires": [
-            []
         ]
     },
     {
@@ -7249,12 +7185,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -7280,12 +7216,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -7456,7 +7392,7 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
@@ -7487,12 +7423,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -7927,12 +7863,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -7958,12 +7894,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -7989,12 +7925,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -8084,12 +8020,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -8115,12 +8051,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -8146,12 +8082,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#ba1c1c",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#8ffe81",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -8177,12 +8113,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#fbff00",
+                "color": "#008000",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -8256,12 +8192,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -8287,12 +8223,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -8334,12 +8270,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -8397,12 +8333,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -8428,12 +8364,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -8491,12 +8427,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -8522,12 +8458,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -8601,12 +8537,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -8632,12 +8568,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -8663,12 +8599,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -8726,12 +8662,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -8757,12 +8693,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -8820,12 +8756,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -8851,12 +8787,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -8914,12 +8850,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -8945,12 +8881,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -9008,12 +8944,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -9039,12 +8975,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -9102,12 +9038,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -9133,12 +9069,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -9196,12 +9132,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -9227,12 +9163,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -9290,12 +9226,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -9321,12 +9257,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -9384,12 +9320,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -9415,12 +9351,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -9494,12 +9430,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -9525,12 +9461,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -9572,12 +9508,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -9619,12 +9555,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -9666,12 +9602,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -9713,12 +9649,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -9760,12 +9696,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -9807,12 +9743,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -9854,12 +9790,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
@@ -9901,12 +9837,12 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "#ff0000",
+                "color": "#cfcfcf",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "#008000",
+                "color": "#fee082",
                 "value": "true",
                 "valueType": "bool"
             }
